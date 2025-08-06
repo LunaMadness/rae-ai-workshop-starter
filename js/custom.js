@@ -298,7 +298,7 @@ $(function() {
 
         // 啟動數據獲取和動畫
         fetchWeatherData(); // 立即獲取一次初始數據
-        setInterval(fetchWeatherData, 10 * 60 * 1000); // 每 10 分鐘刷新一次
+        setInterval(fetchWeatherData, 1 * 60 * 1000); // 每 10 分鐘刷新一次
 
         animate(); // 啟動動畫循環
     }
